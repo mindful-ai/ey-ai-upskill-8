@@ -11,6 +11,7 @@ result = model(text)
 print(result)
 
 ### Alternatively, use https://huggingface.co/Harsh-Gupta/t5-small-news-summarizer using 'text-generation' task
+### and use max_length=30 for the summarizer
 
 # Homework
 
