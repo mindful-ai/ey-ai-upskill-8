@@ -10,6 +10,8 @@ text  = '''
 result = model(text)
 print(result)
 
+### Alternatively, use https://huggingface.co/Harsh-Gupta/t5-small-news-summarizer using 'text-generation' task
+
 # Homework
 
 - Create a HuggingFace pipeline that take modern English text and converts it into 
