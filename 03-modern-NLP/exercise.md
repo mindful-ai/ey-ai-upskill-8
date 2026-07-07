@@ -24,3 +24,7 @@ Shakespearean English text
 Make sure to install transformers module
 - pip install torch
 - pip install transformers
+
+# Reference
+
+Huggingface Documentation: https://huggingface.co/docs/transformers/en/main_classes/pipelines
