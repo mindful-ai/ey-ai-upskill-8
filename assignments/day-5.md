@@ -42,11 +42,11 @@
 - Exploration of architecture
 - Hands-on 
   - Setup .env:
-    OPENAI_API_KEY=<your key>
-    GROQ_API_KEY=<your key>
-    PINECONE_API_KEY=<your key>
-    PINECONE_INDEX_NAME=cyber-security
-    GROQ_MODEL=llama-3.3-70b-versatile
+        OPENAI_API_KEY=<your key>
+        GROQ_API_KEY=<your key>
+        PINECONE_API_KEY=<your key>
+        PINECONE_INDEX_NAME=cyber-security
+        GROQ_MODEL=llama-3.3-70b-versatile
   - Run the tests
     - python -m tests.test_namespaces
     - python -m tests.test_retrieval
@@ -56,3 +56,22 @@
 ------------------------------------------------------------------------
 4:20 - 5:00 Capstone Hands-on
 ------------------------------------------------------------------------
+
+### 5.5 Capstone Project - Multi-agent Cyber Copilot 
+
+- Upsert the NIST and GDPR documents to pinecone - give separate namespaces 
+- Complete the NIST and GDPR agents
+  - Ref: cyber-governance-copilot\graph\nodes\gdpr_retrieval_agent.py
+  - Ref: cyber-governance-copilot\graph\nodes\nist_retrieval_agent.py
+- Test the project with some usecases
+
+Deliverables (upload to sharepoint)
+
+<name>
+- Pinecone Snapshots
+- THe two python files
+- Snapshot of test query 1
+- Snapshot of test query 2
+- Snapshot of test query 3
+
+NOTE: DONOT ZIP OR COMPRESS
